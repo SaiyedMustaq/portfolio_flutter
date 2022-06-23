@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_portfolio/provider/ThemeProvider.dart';
-import 'package:flutter_application_portfolio/sections/MainSection.dart';
-import 'package:flutter_application_portfolio/sections/getInTouch/GetInTouch.dart';
-import 'package:flutter_application_portfolio/sections/servicesDetails/ServicesDetails.dart';
+
 import 'package:provider/provider.dart';
+
+import 'portfolio1/provider/ThemeProvider.dart';
+import 'portfolio1/sections/getInTouch/GetInTouch.dart';
+import 'portfolio1/sections/mainSection.dart';
+import 'portfolio1/sections/servicesDetails/ServicesDetails.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -37,13 +39,13 @@ class _MyAppState extends State<MyApp> {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Hamza',
-        //theme: ThemeStyles.themeData(_themeProvider.lightTheme, context),
+        title: 'Mustaq',
+        theme: ThemeData.light(),
         initialRoute: "/",
         routes: {
           "/": (context) => MainPage(),
           "/workTogether": (context) => GetInTouch(),
-          "/details": (context) => ServiceDetails(
+          "/details": (context) => const ServiceDetails(
                 dec: '',
                 title: '',
               )
