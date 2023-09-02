@@ -2,6 +2,14 @@
 
 A new Flutter project.
 
+![HOME(2)](https://github.com/SaiyedMustaq/portfolio_flutter/assets/47636709/1e9bcd90-c99a-4b78-bff3-7c73cbef7885)
+
+![SKILLS](https://github.com/SaiyedMustaq/portfolio_flutter/assets/47636709/fcf24bca-3868-4532-bda6-83cf82c8b718)
+
+![PROJECTS](https://github.com/SaiyedMustaq/portfolio_flutter/assets/47636709/262eb18c-a476-4ed2-a477-15b672cc3de2)
+
+![CONTACT4](https://github.com/SaiyedMustaq/portfolio_flutter/assets/47636709/363a872e-a350-4107-96d3-8df77ff46045)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
