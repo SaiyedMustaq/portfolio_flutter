@@ -58,11 +58,6 @@ final projectsList = [
       iconSynergy,
       "Companion App to all of Synergy Bookkeeping & Stocktaking’s services in Ireland"),
   ProjectsModel(
-      "Synergy Order",
-      "https://play.google.com/store/apps/details?id=com.abs.synergy",
-      iconSynergyOrdering,
-      "Companion App to all of Synergy Bookkeeping & Stocktaking’s services in Ireland"),
-  ProjectsModel(
       "Lift-Force",
       "https://play.google.com/store/apps/details?id=com.lift_force_app",
       iconLiftForce,
@@ -85,12 +80,17 @@ final projectsList = [
   ProjectsModel(
       "AQARAT",
       "https://play.google.com/store/apps/details?id=com.icebreakrr.classic",
-      "",
+      "assets/images/aqarat_logo.png",
       ""),
   ProjectsModel(
       "Eruit",
       "https://play.google.com/store/apps/details?id=com.icebreakrr.classic",
-      "",
+      "assets/images/eruit_logo.png",
+      ""),
+  ProjectsModel(
+      "IWA2023",
+      "https://play.google.com/store/apps/details?id=com.icebreakrr.classic",
+      "assets/images/iwa_icon.png",
       ""),
 ];
 

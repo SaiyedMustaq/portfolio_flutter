@@ -34,6 +34,7 @@ class ProjectsPages extends StatelessWidget {
                   Utils.isMobile(context) ? 10 : Utils.mdqw(context) / 8,
             ),
             child: Wrap(
+                spacing: 2.0,
                 children: projectsList
                     .map((e) => ProjectsTiles(
                         projectImage: userImageMobile, projectsModel: e))
